@@ -14,7 +14,7 @@ function App() {
           key={contact.id}
           name={contact.name}
           img={contact.imgURL}
-          tel={contact.tel}
+          tel={contact.phone}
           email={contact.email}
         />
       ))}
